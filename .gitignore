@@ -33,3 +33,4 @@ nbdist/
 hs_err_pid*
 replay_pid*
 /target/
+nbactions.xml
