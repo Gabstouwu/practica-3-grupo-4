@@ -78,11 +78,13 @@ section{
     transition: 0.5s;
 }
 
-footer {
+footer{
     position: fixed;
+    text-align: center;
+    background-color:  black;
+    color: white;
+    left:0;
     bottom: 0;
+    height: 25px;
     width: 100%;
-    background-color: #f8f9fa; /* Color de fondo del footer */
-    padding: 20px; /* Espaciado interno del footer */
-    text-align: center; /* Alineación del texto */
 }
