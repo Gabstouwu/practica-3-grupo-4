@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <!-- 
-
+PROYECTO GRUPAL
 -->
-<html>
-    <head>
-        <title>CRUD</title>
-        <meta charset="UTF-8">
+<html xmlns=" http://www.w3.org/199/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Lapulpe</title>
+        <meta charset="UTF-8"/>
+        <link href="css/stilos.css" rel="stylesheet" type="text/css"/>
     </head>
+
     <body>
-        <header>   
-        </header>
 
+        <header th:replace="~{layout/plantilla :: header}"/>
 
-        <footer>
-            &COPY; Derechosa reservados TechShop 2024
-        </footer>
+        
 
+        <footer class="footer" th:replace="~{layout/plantilla :: footer}"/>
     </body>
+
 </html>
